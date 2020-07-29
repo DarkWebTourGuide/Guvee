@@ -60,6 +60,8 @@
 	border-radius: 33px;
 	border-color: black;
 	text-indent: 10px;
+	display: inline;
+	width: 70%;
 }
 
 #btnGetData {
@@ -71,7 +73,8 @@
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	
+	display: inline;
+	width: 50%;
 }
 
 #btnModal {
@@ -83,7 +86,8 @@
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	
+	display: inline;
+	width: 50%;
 }
 
 
