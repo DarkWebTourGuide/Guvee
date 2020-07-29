@@ -53,18 +53,28 @@
 </header>
 <!--End Header -->
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row text-center justify-content-center mt-4 pt-4">
   </div>
 	<div class="row text-center justify-content-center mt-4 pt-4">
 		<div class="col-center" id="logo">
-			<img src="img/guvee.png">
+			<img class="img-fluid" src="img/guvee.png">
       <p>Know your government.</p>
     </div>
+  </div>
+  <div class="row text-center justify-content-center mt-2 pt-2 pb-2">
 		<div class="col-center" id="form">
 			<label for="address" class="sr-only">Address</label>
-			<input type="text" id="address" placeholder="Enter An Address...">
-			<button id="btnGetData"> Retrieve Data</button>
+      <input type="text" id="address" placeholder="Enter An Address...">
+    </div>
+  </div>
+  <div class="row text-center justify-content-center">
+    <div class="col-center">
+      <button id="btnGetData"> Retrieve Data</button>
+    </div>
+  </div>
+  <div class="row text-center justify-content-center">
+    <div class="col-center">
 			<button type="button" class="btn" id="btnModal" data-toggle="modal" data-target="#Modal">
       What is Guvee?
       </button>
