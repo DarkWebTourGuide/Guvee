@@ -20,8 +20,8 @@
  =======================*/
 
  body {
- 	margin: 10px;
- 	padding-bottom: 15px;
+ 	margin: 1px;
+ 	padding-bottom: 2px;
  }
 
 #footer {
@@ -62,15 +62,30 @@
 	text-indent: 10px;
 }
 
-#form button {
+#btnGetData {
 	margin-top: 20px;
 	height: 100%;
 	width: 50%;
 	border-width: 0px;
 	border-radius: 33px;
 	padding: 4px;
+	background-color: black;
+	color: white;
 
 }
+
+#btnModal {
+	margin-top: 20px;
+	height: 100%;
+	width: 50%;
+	border-width: 0px;
+	border-radius: 33px;
+	padding: 4px;
+	background-color: #007bff;
+	color: white;
+
+}
+
 
 #result {
 	margin-top: 20px;
