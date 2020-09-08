@@ -9,26 +9,26 @@
  /*======================
  Style
  =======================*/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
 * {
-	font-family: 'Quicksand', serif;
+  font-family: "Quicksand", serif;
 }
 
- /*======================
+/*======================
  Structure
  =======================*/
 
- body {
- 	margin: 10px;
- 	padding-bottom: 15px;
- }
+body {
+  margin: 10px;
+  padding-bottom: 15px;
+}
 
 #footer {
-	margin: auto;
-	padding: auto;
+  margin: auto;
+  padding: auto;
 }
- /*======================
+/*======================
  Navigation
  =======================*/
 
@@ -49,51 +49,57 @@
   color: blue;
 }
 
- /*======================
+/*======================
  Form
  =======================*/
 
 #form input {
-	margin: 4px 2px;
-	padding: 10px 20px;
-	border-width: 1px;
-	border-radius: 33px;
-	border-color: black;
-	text-indent: 10px;
-	display: inline;
-	width: 70%;
+  margin: 4px 2px;
+  padding: 10px 20px;
+  border-width: 1px;
+  border-radius: 33px;
+  border-color: black;
+  text-indent: 10px;
+  width: 70%;
 }
 
 #btnGetData {
-	margin: 4px 2px;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 33px;
-	background-color: black;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	display: inline;
-	width: 50%;
+  margin: 4px 2px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 33px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
 }
 
+#btnGetData:hover {
+  transform: scale(1.05);
+}
+#btnGetData:active {
+  transform: scale(0.95);
+}
 #btnModal {
-	margin: 4px 2px;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 33px;
-	background-color: #3e99fa;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	display: inline;
-	width: 50%;
+  margin: 4px 2px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 33px;
+  background-color: #3e99fa;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
 }
 
-
+#btnModal:hover {
+  transform: scale(1.05);
+}
+#btnModal:active {
+  transform: scale(0.95);
+}
 #result {
-	margin-top: 20px;
+  margin-top: 20px;
+  font-size: 0.8em;
 }
-
-
-
