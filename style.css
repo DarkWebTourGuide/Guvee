@@ -81,9 +81,6 @@ body {
 #btnGetData:active {
   transform: scale(0.95);
 }
-#btnGetData:focus {
-  transform: scale(0.95);
-}
 
 #btnModal {
   margin: 4px 2px;
@@ -103,9 +100,7 @@ body {
 #btnModal:active {
   transform: scale(0.95);
 }
-#btnModal:focus {
-  transform: scale(0.95);
-}
+
 #result {
   margin-top: 20px;
   font-size: 0.8em;
