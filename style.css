@@ -1,29 +1,26 @@
 /*======================
- Content:
- Style
- Structure
+ Styles:
+ Global
+ Layout
+ Navigation
  Form
- =======================
-*
-*
- /*======================
- Style
+ Buttons
+ =======================*/
+/*======================
+Global
  =======================*/
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
 * {
   font-family: "Quicksand", serif;
 }
-
 /*======================
- Structure
+Layout
  =======================*/
-
 body {
   margin: 10px;
   padding-bottom: 15px;
 }
-
 #footer {
   margin: auto;
   padding: auto;
@@ -31,7 +28,6 @@ body {
 /*======================
  Navigation
  =======================*/
-
 /* navbar-brand color */
 .navbar a.navbar-brand {
   color: black;
@@ -48,11 +44,9 @@ body {
 .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
   color: blue;
 }
-
 /*======================
- Form
+ Search Form
  =======================*/
-
 #form input {
   margin: 4px 2px;
   padding: 10px 20px;
@@ -62,7 +56,9 @@ body {
   text-indent: 10px;
   width: 70%;
 }
-
+/*======================
+ Buttons
+ =======================*/
 #btnGetData {
   margin: 4px 2px;
   padding: 10px 20px;
@@ -74,14 +70,12 @@ body {
   text-decoration: none;
   width: 50%;
 }
-
 #btnGetData:hover {
   transform: scale(1.05);
 }
 #btnGetData:active {
   transform: scale(0.95);
 }
-
 #btnModal {
   margin: 4px 2px;
   padding: 10px 20px;
@@ -93,14 +87,12 @@ body {
   text-decoration: none;
   width: 50%;
 }
-
 #btnModal:hover {
   transform: scale(1.05);
 }
 #btnModal:active {
   transform: scale(0.95);
 }
-
 #result {
   margin-top: 20px;
   font-size: 0.8em;
